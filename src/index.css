@@ -1,0 +1,15 @@
+/* تصفير الهوامش والحدود الافتراضية للمتصفح */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+  overflow-x: hidden;
+  direction: rtl; /* ضبط الاتجاه من اليمين إلى اليسار للعربية */
+}
