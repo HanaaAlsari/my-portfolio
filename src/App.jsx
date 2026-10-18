@@ -31,7 +31,7 @@ function App() {
     <div className="portfolio-container">
       {/* 1. شريط التنقل (Navbar) */}
       <nav className="navbar">
-        <div className="logo">مطور واجهات</div>
+        <div className="logo"> hanaa alsari/هناء الصاري</div>
         <ul className="nav-links">
           <li><a href="#hero">الرئيسية</a></li>
           <li><a href="#projects">مشاريعي</a></li>
@@ -113,7 +113,7 @@ function App() {
     <p className="section-subtitle">هل لديك فكرة مشروع، أو فرصة عمل، أو ترغب فقط في إلقاء التحية؟ أرسل رسالتك فوراً</p>
 
     <div className="contact-content">
-      <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
+      <form className="contact-form" onSubmit={(e) => e.preventDefault()} action={"https://formspree.io/f/mrpedlqb"}  method="POST">
         <div className="form-group">
           <label htmlFor="name">الاسم الكريم</label>
           <input type="text" id="name" placeholder="أدخل اسمك هنا" required />
