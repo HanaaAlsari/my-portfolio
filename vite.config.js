@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/config-react'
 
-// https://vite.dev
+// تعطيل المكون الإضافي لـ React مؤقتاً لتشغيل خادم Vite محلياً بدون حزم إنترنت
 export default defineConfig({
-  plugins: [react()],
-  base: './', // <-- أضيفي هذا السطر بدقة هنا لحل مشكلة الصفحة البيضاء
+  // تركنا مصفوفة الإضافات فارغة ليتجاوز خادم Vite البحث عن الحزمة المفقودة
+  plugins: [], 
 })

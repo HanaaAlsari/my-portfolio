@@ -6,8 +6,8 @@ function App() {
   title: "استنساخ منصة أمازون الرقمية (Amazon Clone)",
   description: "تطوير واجهة متكاملة تحاكي منصة أمازون العالمية باستخدام React.js. ركزت في المشروع على بناء الهيكل البرمجي المعقد للشريط العلوي (Navbar)، تصميم شبكة عرض المنتجات التفاعلية بـ CSS Grid، وعرض خدمات البث الرقمي بأسلوب عصري ومطابق تماماً للمنصة الأصلية.",
   tags: ["React.js", "CSS Grid", "Flexbox", "Responsive Design"],
-  liveLink: "https://your-live-link.com", // ضع رابط موقعك هنا بعد رفعه
-  githubLink: "https://github.com" // ضع رابط المستودع هنا
+  liveLink: "https://amazon-clone-tau-flame-44.vercel.app/", // ضع رابط موقعك هنا بعد رفعه
+  githubLink: "https://github.com/HanaaAlsari/amazon-clone" // ضع رابط المستودع هنا
 }
 ,
   {
@@ -15,8 +15,8 @@ function App() {
   title: "منصة استعراض وتقييم الأفلام (Movies App)",
   description: "تطبيق ويب متكامل مصمم بـ React لبناء قوائم أفلام مخصصة. يتيح للمستخدمين البحث عن الأفلام، استعراض تفاصيلها، وإضافة الأفلام المفضلة إلى قائمة المشاهدة (Watchlist) أو قائمة الأفلام التي تمت مشاهدتها (Watched)، مع إدارة الحالات وتخزينها بكفاءة هندسية عالية.",
   tags: ["React.js", "State Management", "Flexbox", "Responsive CSS"],
-  liveLink: "https://vercel.app", // <-- ضعي رابط الأفلام الحي الخاص بكِ هنا من Vercel
-  githubLink: "https://github.com" // رابط مستودع الأفلام الجديد
+  liveLink: "https://movies-app-react-gules.vercel.app/", // <-- ضعي رابط الأفلام الحي الخاص بكِ هنا من Vercel
+  githubLink: "https://github.com/HanaaAlsari/movies-app-react.git" // رابط مستودع الأفلام الجديد
 }
 
 
@@ -87,7 +87,7 @@ function App() {
                   
                   {/* روابط المعاينة والكود البرمجي */}
                   <div className="project-links">
-                    <a href="https://amazon-clone-git-main-hanaa-projects.vercel.app/" target="_blank" rel="noopener noreferrer" className="link-live">
+                    <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="link-live">
                       معاينة حية ↗
                     </a>
                     <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="link-github">
