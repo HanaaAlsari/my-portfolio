@@ -10,22 +10,16 @@ function App() {
   githubLink: "https://github.com" // ضع رابط المستودع هنا
 }
 ,
-    {
-      id: 2,
-      title: "اسم مشروعك الثاني (مثلاً: متجر إلكتروني)",
-      description: "تطبيق ويب متجاوب بالكامل يحتوي على سلة مشتريات وتصفح ذكي للمنتجات مع إدارة الحالات.",
-      tags: ["JavaScript ES6", "CSS Grid", "Fetch API"],
-      liveLink: "#", 
-      githubLink: "#"
-    },
-    {
-      id: 3,
-      title: "اسم مشروعك الثالث الحقيقي",
-      description: "لوحة تحكم ذكية لإدارة البيانات واستعراض التقارير والمخططات البيانية التفاعلية.",
-      tags: ["React.js", "Chart.js", "Local Storage"],
-      liveLink: "#",
-      githubLink: "#"
-    }
+  {
+  id: 3,
+  title: "منصة استعراض وتقييم الأفلام (Movies App)",
+  description: "تطبيق ويب متكامل مصمم بـ React لبناء قوائم أفلام مخصصة. يتيح للمستخدمين البحث عن الأفلام، استعراض تفاصيلها، وإضافة الأفلام المفضلة إلى قائمة المشاهدة (Watchlist) أو قائمة الأفلام التي تمت مشاهدتها (Watched)، مع إدارة الحالات وتخزينها بكفاءة هندسية عالية.",
+  tags: ["React.js", "State Management", "Flexbox", "Responsive CSS"],
+  liveLink: "https://vercel.app", // <-- ضعي رابط الأفلام الحي الخاص بكِ هنا من Vercel
+  githubLink: "https://github.com" // رابط مستودع الأفلام الجديد
+}
+
+
   ];
   return (
     <div className="portfolio-container">
