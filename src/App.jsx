@@ -93,7 +93,7 @@ function App() {
                   
                   {/* روابط المعاينة والكود البرمجي */}
                   <div className="project-links">
-                    <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="link-live">
+                    <a href="https://amazon-clone-git-main-hanaa-projects.vercel.app/" target="_blank" rel="noopener noreferrer" className="link-live">
                       معاينة حية ↗
                     </a>
                     <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="link-github">
